@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 
 # load the model from disk
-loaded_model=pickle.load(open("C:\Users\Lenovo\Downloads\AQI-Deployment-master\AQI-Deployment-master\AQI Deployment\aqi_rf.pkl", 'rb'))
+loaded_model=pickle.load(open(r"C:\Users\Lenovo\Downloads\AQI-Deployment-master\AQI-Deployment-master\AQI Deployment\aqi_rf.pkl", 'rb'))
 app = Flask(__name__)
 
 @app.route('/')
